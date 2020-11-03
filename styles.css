@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.aside {
+  float: left;
+  width: 300px;
+  height: 100vh;
+  background-color: rgb(221, 221, 221);
+  border-right: 1px solid rgb(168, 166, 166);
+  transform: translateX(-300px);
+  transition: all .3s;
+}
+
+ .button {
+  transform: rotate(90deg);
+  text-align: center;
+  width: 130px;
+  margin-top: 200px;
+  margin-left: 250px;
+  padding: 5px 20px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: rgb(38, 221, 53);
+  cursor: pointer;
+ }
+
+ .aside:hover {
+  transform: translateX(0);
+}
+
+#user-form {
+position: relative;
+top: 15%;
+}
+
+.input-wrapper {
+  padding: 10px 5px;
+  text-align: right;
+}
+
+.error-msg {
+  font-size: 12px;
+  color: red;
+}
+
+#save-btn {
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.input-wrapper-btn {
+  text-align: center;
+}
+
+.main {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+}
+
+thead {
+  font-weight: 700;
+}
+
+.tbl {
+  padding: 10px 25px;
+  border: 1px solid rgb(146, 146, 146);
+}
+
+.tbl:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.btn-field {
+  border: none;
+  letter-spacing: 5px;
+  padding: 0 20px;
+}
+
+
+
